@@ -16,12 +16,24 @@
               default-active="2"
               class="el-menu-vertical-demo">
               <el-menu-item index="1" @click="$router.push('/admMain')">
-                <i class="el-icon-setting"></i>
-                <span slot="title" >管理员</span>
-              </el-menu-item>
-              <el-menu-item index="4" @click="$router.push('/shopMain')">
+              <i class="el-icon-menu"></i>
+              <span slot="title" >主页</span>
+            </el-menu-item>
+              <el-menu-item index="2" @click="$router.push('/shopMain')">
                 <i class="el-icon-menu"></i>
                 <span slot="title">商品管理</span>
+              </el-menu-item>
+              <el-menu-item index="3" @click="$router.push('/orderMainPage')">
+                <i class="el-icon-menu"></i>
+                <span slot="title" >订单管理</span>
+              </el-menu-item>
+              <el-menu-item index="4" @click="$router.push('/stockMainPage')">
+                <i class="el-icon-menu"></i>
+                <span slot="title">库存管理</span>
+              </el-menu-item>
+              <el-menu-item index="5" @click="$router.push('/customerMainPage')">
+                <i class="el-icon-menu"></i>
+                <span slot="title">客户管理</span>
               </el-menu-item>
             </el-menu>
           </el-aside>
@@ -49,5 +61,8 @@
     font-size: 24px;
     text-indent: 20px;
     border-bottom: 2px solid#000;
+  }
+  .el-main{
+    padding: 0;
   }
 </style>

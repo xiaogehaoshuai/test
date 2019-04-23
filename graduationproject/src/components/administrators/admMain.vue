@@ -1,5 +1,15 @@
 <template>
-    <div>管理员</div>
+    <div>
+      <div>
+        <span>客户信息</span>
+        <span>订单信息</span>
+        <span>商品信息</span>
+        <span>库存信息</span>
+      </div>
+      <div>
+        jkgj
+      </div>
+    </div>
 </template>
 
 <script>
