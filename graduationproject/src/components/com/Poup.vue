@@ -41,6 +41,18 @@
           this.$ajax.post("http://127.0.0.1/addShopList",{id:form.id,name:form.name,shopName:form.shopName,shopId:form.shopId}).then((response) => {
             console.log(response.data)
             this.$emit('dialog')
+            this. addShowStockList(form)
+          })
+        },
+        addShowStockList(form){
+          this.$ajax.post("http://127.0.0.1/addStockList",{
+            id:form.id,
+            shopId:form.shopId,
+            shopSum:1,
+            shopNum:1,
+          }).then((response) => {
+            console.log(response.data)
+            this.$emit('dialog')
           })
         },
           fn(form){

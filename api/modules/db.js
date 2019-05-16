@@ -2,13 +2,10 @@ const mongodb=require("mongodb");
 const mongoClient=mongodb.MongoClient;
 
 function _connect(cb){
-    // console.log(1);
     // 异步
     mongoClient.connect("mongodb://127.0.0.1:27017",{ useNewUrlParser: true },function(err,client) {
         cb(client.db("graduationProject"));
-        // console.log(2);
     });
-    // console.log(3);
 }
 // 获得管理员日志列表
 module.exports.getAdminLogList=function(cb){
@@ -24,8 +21,6 @@ module.exports.getAdminLogList=function(cb){
                 }
             }
         ]).toArray(cb);
-
-
 
 
     })

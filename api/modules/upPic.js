@@ -55,5 +55,4 @@ module.exports.upPic=function(req,picName,cb){
         }
 
     })
-
 }

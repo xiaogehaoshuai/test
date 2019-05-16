@@ -70,7 +70,6 @@
 
       getShowShopList(){
         this.$ajax.get("http://127.0.0.1/showShopList").then((response) => {
-          console.log(response.data)
           this.tableData=response.data.data
         })
       },

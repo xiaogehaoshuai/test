@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2da442c-74fb-4db7-8bc1-ce555efcf6bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graduationproject/src/components/customer/customerMainPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduationproject/src/components/orderManagement/orderMainPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graduationproject/src/components/stock/stockMainPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduationproject/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/graduationproject/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduationproject/src/components/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/graduationproject/src/components/Main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduationproject/src/components/administrators/admMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/graduationproject/src/components/administrators/admMain.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/modules/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/modules/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graduationproject/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/graduationproject/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graduationproject/src/components/com/Poup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/graduationproject/src/components/com/Poup.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/graduationproject/src/components/shopping/shopMain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/graduationproject/src/components/shopping/shopMain.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graduationproject/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/graduationproject/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graduationproject/src/components/stock/stockMainPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/graduationproject/src/components/stock/stockMainPage.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,32 +22,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduationproject/src/router/index.js">
+        <entry file="file://$PROJECT_DIR$/graduationproject/src/components/shopping/shopMain.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="380">
+              <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#352#804#0" />
+                <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#el-table#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#1362#1440#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduationproject/src/components/administrators/admMain.vue">
+        <entry file="file://$PROJECT_DIR$/graduationproject/src/components/com/Poup.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="343">
+              <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+              <folding>
+                <element signature="e#1033#1223#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduationproject/src/App.vue">
+        <entry file="file://$PROJECT_DIR$/api/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="424">
+              <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+              <folding>
+                <element signature="e#1078#1358#0" />
+                <element signature="e#1401#1648#0" />
+                <element signature="e#1692#1978#0" />
+                <element signature="e#2545#2690#0" />
+                <element signature="e#2734#2880#0" />
+                <element signature="e#2924#3070#0" />
+                <element signature="e#3119#3418#0" />
+                <element signature="e#3463#3676#0" />
+                <element signature="e#3722#3877#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graduationproject/src/components/Main.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
+            <state relative-caret-position="741">
               <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#el-aside#0;n#el-container#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -66,49 +81,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graduationproject/src/components/stock/stockMainPage.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/graduationproject/src/components/orderManagement/orderMainPage.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#el-table-column#6;n#el-table#0;n#template#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduationproject/src/components/customer/customerMainPage.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#el-table-column#6;n#el-table#0;n#template#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graduationproject/src/components/shopping/shopMain.vue">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="22" lean-forward="true" selection-end-line="85" />
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
-                <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#el-table-column#0;n#el-table#0;n#div#0;n#template#0;n#!!top" />
+                <element signature="e#117#182#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graduationproject/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -119,9 +110,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+        <option value="package.json" />
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getAdminLogList</find>
+      <find>md5</find>
+      <find>list,</find>
+      <find>validatePass2</find>
+      <find>callback</find>
+      <find>list)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>data)</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,22 +138,31 @@
         <option value="$PROJECT_DIR$/graduationproject/.gitignore" />
         <option value="$PROJECT_DIR$/api/package.json" />
         <option value="$PROJECT_DIR$/mysql/server.js" />
-        <option value="$PROJECT_DIR$/graduationproject/src/components/Login/Login.vue" />
         <option value="$PROJECT_DIR$/graduationproject/src/components/administrators/admMain.vue" />
-        <option value="$PROJECT_DIR$/graduationproject/src/components/stock/stockMainPage.vue" />
         <option value="$PROJECT_DIR$/graduationproject/src/router/index.js" />
         <option value="$PROJECT_DIR$/graduationproject/src/components/Main.vue" />
-        <option value="$PROJECT_DIR$/graduationproject/src/components/shopping/shopMain.vue" />
+        <option value="$PROJECT_DIR$/apid/server.js" />
+        <option value="$PROJECT_DIR$/apid/package.json" />
+        <option value="$PROJECT_DIR$/graduationproject/data.json" />
+        <option value="$PROJECT_DIR$/graduationproject/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/graduationproject/src/main.js" />
+        <option value="$PROJECT_DIR$/api/modules/db.js" />
+        <option value="$PROJECT_DIR$/graduationproject/src/components/Login/Login.vue" />
         <option value="$PROJECT_DIR$/graduationproject/src/components/customer/customerMainPage.vue" />
         <option value="$PROJECT_DIR$/graduationproject/src/components/orderManagement/orderMainPage.vue" />
+        <option value="$PROJECT_DIR$/graduationproject/src/components/shopping/shopMain.vue" />
+        <option value="$PROJECT_DIR$/graduationproject/src/App.vue" />
+        <option value="$PROJECT_DIR$/api/server.js" />
+        <option value="$PROJECT_DIR$/graduationproject/src/components/com/Poup.vue" />
+        <option value="$PROJECT_DIR$/graduationproject/src/components/stock/stockMainPage.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="313" />
+    <option name="y" value="47" />
+    <option name="width" value="1400" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,11 +178,49 @@
               <item name="graduationproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="graduationproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="graduationproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,12 +257,18 @@
       <updated>1553523977812</updated>
       <workItem from="1553523980935" duration="3359000" />
       <workItem from="1553909313638" duration="1420000" />
-      <workItem from="1556022776201" duration="5867000" />
+      <workItem from="1556022776201" duration="6359000" />
+      <workItem from="1556624515472" duration="7689000" />
+      <workItem from="1557751292869" duration="10149000" />
+      <workItem from="1557764799146" duration="243000" />
+      <workItem from="1557931294883" duration="3666000" />
+      <workItem from="1558011030448" duration="13245000" />
+      <workItem from="1558044542287" duration="3146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10646000" />
+    <option name="totallyTimeSpent" value="49276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,13 +280,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15125495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -234,7 +295,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32867134" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33519554" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.273743" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,14 +311,33 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/graduationproject/src/components/Main.vue</url>
           <line>12</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/graduationproject/src/components/customer/customerMainPage.vue</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/api/modules/db.js</url>
+          <line>75</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/api/modules/db.js</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/graduationproject/src/components/Login/Login.vue</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/api/server.js</url>
+          <line>82</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -283,69 +363,62 @@
     <entry file="file://$PROJECT_DIR$/mysql/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/md5.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apid/server.js" />
+    <entry file="file://$PROJECT_DIR$/apid/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/apid/package.json" />
+    <entry file="file://$PROJECT_DIR$/mysql/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/upPic.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/modules/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
+        <state relative-caret-position="95">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/md5.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/modules/db.js">
+    <entry file="file://$PROJECT_DIR$/graduationproject/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="111">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <element signature="e#391#901#0" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/server.js">
+    <entry file="file://$PROJECT_DIR$/api/modules/eleEnum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state>
           <folding>
-            <element signature="e#270#304#0" />
-            <element signature="e#369#498#0" />
-            <element signature="e#500#549#0" />
-            <element signature="e#663#842#0" />
-            <element signature="e#879#1666#0" />
-            <element signature="e#1702#1785#0" />
-            <element signature="e#1819#1903#0" />
-            <element signature="e#1929#1960#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/Login/Login.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/stock/stockMainPage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/customer/customerMainPage.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-table-column#6;n#el-table#0;n#template#0;n#!!top" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -356,14 +429,86 @@
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <element signature="e#352#804#0" />
+            <element signature="e#493#1255#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/administrators/admMain.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/Login/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-form#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-form-item#3;n#el-form#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-form-item#3;n#el-form#0;n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-form-item#4;n#el-form#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/modules/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!block;n#_connect#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/customer/customerMainPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+          <folding>
+            <element signature="n#el-table#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-table-column#6;n#el-table#0;n#template#0;n#!!top" />
+            <element signature="e#1128#2037#0" />
+            <element signature="e#1152#1369#0" />
+            <element signature="e#2413#2452#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/orderManagement/orderMainPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
+          <folding>
+            <element signature="n#el-table#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-table-column#6;n#el-table#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graduationproject/src/components/Main.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
+        <state relative-caret-position="741">
           <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#el-aside#0;n#el-container#0;n#el-container#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -371,37 +516,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/administrators/admMain.vue">
+    <entry file="file://$PROJECT_DIR$/api/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graduationproject/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="424">
+          <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+          <folding>
+            <element signature="e#1078#1358#0" />
+            <element signature="e#1401#1648#0" />
+            <element signature="e#1692#1978#0" />
+            <element signature="e#2545#2690#0" />
+            <element signature="e#2734#2880#0" />
+            <element signature="e#2924#3070#0" />
+            <element signature="e#3119#3418#0" />
+            <element signature="e#3463#3676#0" />
+            <element signature="e#3722#3877#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graduationproject/src/components/shopping/shopMain.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="22" lean-forward="true" selection-end-line="85" />
+        <state relative-caret-position="380">
+          <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
           <folding>
-            <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#el-table#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#1362#1440#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/orderManagement/orderMainPage.vue">
+    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/com/Poup.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="119" column="10" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+        <state relative-caret-position="343">
+          <caret line="51" column="17" lean-forward="true" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
           <folding>
-            <element signature="n#style#0;n#el-table#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#el-table-column#6;n#el-table#0;n#template#0;n#!!top" />
+            <element signature="e#1033#1223#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graduationproject/src/components/stock/stockMainPage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#el-table-column#0;n#el-table#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#117#182#0" />
           </folding>
         </state>
       </provider>
