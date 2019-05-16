@@ -14,6 +14,10 @@
         </el-form-item>
         <el-form-item style="text-align: center">
           <el-button type="primary" @click="submitForm('ruleForm2')">登录</el-button>
+          <el-button type="primary" @click="register('ruleForm2')">注册</el-button>
+        </el-form-item>
+        <el-form-item style="text-align: center">
+         <el-col v-html="error"></el-col>
         </el-form-item>
       </el-form>
     </div>
@@ -25,14 +29,14 @@
     export default {
         name: "Login",
       data() {
-        var checkName= (rule, value, callback) => {
+        let checkName= (rule, value, callback) => {
           if (value === '') {
             callback(new Error('请输入姓名'));
           } else {
             callback();
           }
         };
-        var validatePass = (rule, value, callback) => {
+        let validatePass = (rule, value, callback) => {
           if (value === '') {
             callback(new Error('请输入密码'));
           } else {
@@ -42,7 +46,7 @@
             callback();
           }
         };
-        var validatePass2 = (rule, value, callback) => {
+        let validatePass2 = (rule, value, callback) => {
           if (value === '') {
             callback(new Error('请再次输入密码'));
           } else if (value !== this.ruleForm2.pass) {
@@ -67,20 +71,60 @@
             name: [
               { validator: checkName, trigger: 'blur' }
             ]
-          }
+          },
+          error:''
         };
       },
       methods: {
         submitForm(formName) {
           this.$refs[formName].validate((valid) => {
             if (valid) {
-             this.$router.push("/Main")
+              this.$ajax.post("http://127.0.0.1/login",{
+                name:this.ruleForm2.name,
+                pass:this.ruleForm2.pass,
+              }).then((reponse)=>{
+                console.log(reponse)
+                if(reponse.status===200&&reponse.data.code===1) {
+                  let data = reponse.data.data
+                  if (data) {
+                    this.$router.push("/Main")
+                  } else {
+                    this.error = '请先注册'
+                    this.ruleForm2.name = ''
+                    this.ruleForm2.pass = ''
+                    this.ruleForm2.checkPass = ''
+                  }
+                }
+              })
+
+
             } else {
               console.log('error submit!!');
               return false;
             }
           });
         },
+        register(formName){
+          this.$refs[formName].validate((valid) => {
+            if (valid) {
+              this.$ajax.post("http://127.0.0.1/register",{
+                name:this.ruleForm2.name,
+                pass:this.ruleForm2.pass,
+              }).then((reponse)=>{
+                console.log(reponse)
+                if(reponse.status===200&&reponse.data.code===1){
+                  let data=reponse.data.msg
+                   console.log(data)
+                }
+              })
+
+
+            } else {
+              console.log('error submit!!');
+              return false;
+            }
+          });
+        }
       }
     }
 

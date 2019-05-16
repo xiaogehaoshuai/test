@@ -4,7 +4,22 @@
 
 <script>
     export default {
-        name: "stockMainPage"
+        name: "stockMainPage",
+      data(){
+          return {
+            stockList:[]
+          }
+      },
+      methods:{
+        getShowStockList(){
+          this.$ajax.get("http://127.0.0.1/showStockList").then((response) => {
+            console.log(response.data)
+          })
+        },
+      },
+      mounted() {
+          this.getShowStockList()
+        }
     }
 </script>
 

@@ -121,10 +121,18 @@
       }
     },
     methods: {
+      getShowOrderList(){
+        this.$ajax.get("http://127.0.0.1/showOrderList").then((response) => {
+          console.log(response.data)
+        })
+      },
       handleClick(row) {
         console.log(row);
       }
     },
+    mounted() {
+      this.getShowOrderList()
+    }
   }
 </script>
 

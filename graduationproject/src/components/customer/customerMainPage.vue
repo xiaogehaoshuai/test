@@ -91,10 +91,18 @@
         }
       },
       methods: {
+        getUserList(){
+          this.$ajax.get("http://127.0.0.1/showUseList").then((response) => {
+            console.log(response.data)
+          })
+        },
         handleClick(row) {
           console.log(row);
         }
       },
+      mounted() {
+        this. getUserList()
+      }
     }
 </script>
 
