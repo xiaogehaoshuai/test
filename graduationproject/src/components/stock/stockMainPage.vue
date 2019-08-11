@@ -60,6 +60,7 @@
         },
       },
       mounted() {
+          console.log(1212)
           this.getShowStockList()
         }
     }
