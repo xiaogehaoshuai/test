@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2da442c-74fb-4db7-8bc1-ce555efcf6bf" name="Default Changelist" comment="" />
+    <list default="true" id="a2da442c-74fb-4db7-8bc1-ce555efcf6bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -144,10 +146,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="313" />
-    <option name="y" value="47" />
-    <option name="width" value="1400" />
-    <option name="height" value="805" />
+    <option name="x" value="41" />
+    <option name="y" value="23" />
+    <option name="width" value="1399" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,12 +202,12 @@
       <workItem from="1557931294883" duration="3666000" />
       <workItem from="1558011030448" duration="13245000" />
       <workItem from="1558044542287" duration="3146000" />
-      <workItem from="1565497703106" duration="241000" />
+      <workItem from="1565497703106" duration="539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49517000" />
+    <option name="totallyTimeSpent" value="49815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,7 +219,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1399" height="877" extended-state="6" />
+    <frame x="41" y="23" width="1399" height="877" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1509434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
